@@ -1,7 +1,5 @@
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
-TARGET_BOOTANIMATION_HALF_RES := true
+PAC_BOOTANIMATION_NAME := 1080
 
 # Inherit some common PAC stuff.
 $(call inherit-product, vendor/pac/config/common_full_phone.mk)
